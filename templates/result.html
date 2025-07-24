@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <h1>Recommended Crops and Fertilizers</h1>
+    <h2>Crops:</h2>
+    <ul>
+        {% for crop in crops %}
+        <li>{{ crop }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Fertilizers:</h2>
+    <ul>
+        {% for fertilizer in fertilizers %}
+        <li>{{ fertilizer }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Go Back</a>
+</body>
+</html>
