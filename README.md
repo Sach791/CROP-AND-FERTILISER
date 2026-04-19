@@ -1,6 +1,6 @@
 🌾 Crop Recommendation & Fertilizer Prediction System
-📌 Overview
 
+📌 Overview
 The Crop Recommendation & Fertilizer Prediction System is a machine learning-based application designed to assist farmers and agricultural planners in making informed decisions.
 
 It analyzes soil nutrients and environmental conditions to recommend the most suitable crops and fertilizers. The system uses a Random Forest algorithm for accurate predictions and provides an interactive web-based interface for ease of use.
