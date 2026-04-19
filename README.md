@@ -1,50 +1,73 @@
-🌾 Crop Recommendation & Fertilizer Prediction System
-📌 Overview
+# 🌾 Crop Recommendation & Fertilizer Prediction System  
 
-The Crop Recommendation & Fertilizer Prediction System is a machine learning-based application designed to assist farmers and agricultural planners in making informed decisions.
+## 📌 Overview  
+The **Crop Recommendation & Fertilizer Prediction System** is a machine learning-based application designed to assist farmers and agricultural planners in making informed decisions.  
 
-It analyzes soil nutrients and environmental conditions to recommend the most suitable crops and fertilizers. The system uses a Random Forest algorithm for accurate predictions and provides an interactive web-based interface for ease of use.
+It analyzes soil nutrients and environmental conditions to recommend the most suitable crops and fertilizers. The system uses a **Random Forest algorithm** for accurate predictions and provides an interactive **web-based interface** for ease of use.  
 
-✨ Key Features
-🌱 Smart Crop Recommendation
+---
 
-Predicts the most suitable crop based on:
+## ✨ Key Features  
 
-Nitrogen (N)
-Phosphorus (P)
-Potassium (K)
-Temperature
-Humidity
-pH value
-Rainfall
-🧪 Fertilizer Prediction
-Suggests appropriate fertilizers based on soil nutrient deficiency
-Helps improve crop yield and soil health
-⚡ Machine Learning Integration
-Uses Random Forest Classifier for high accuracy
-Trained on agricultural datasets for better predictions
-🔍 User-Friendly Interface
-Built using HTML, CSS, and JavaScript
-Simple input form for farmers/users
-Displays instant results
-📊 Data Processing
-Data preprocessing using:
-Pandas
-NumPy
-Ensures clean and optimized data for training
-🛠️ Technology Stack
-Layer	Technology Used
-Frontend	HTML, CSS, JavaScript
-Backend	Python
-ML Algorithm	Random Forest
-Libraries	Pandas, NumPy, Scikit-learn
-📦 Prerequisites
+### 🌱 Smart Crop Recommendation  
+Predicts the most suitable crop based on:  
+- Nitrogen (N)  
+- Phosphorus (P)  
+- Potassium (K)  
+- Temperature  
+- Humidity  
+- pH value  
+- Rainfall  
 
-Ensure you have the following installed:
+---
 
-🐍 Python (3.7 or above)
-📦 pip (Python package manager)
-📚 Required Libraries
+### 🧪 Fertilizer Prediction  
+- Suggests appropriate fertilizers based on soil nutrient deficiency  
+- Helps improve crop yield and soil health  
+
+---
+
+### ⚡ Machine Learning Integration  
+- Uses **Random Forest Classifier** for high accuracy  
+- Trained on agricultural datasets for better predictions  
+
+---
+
+### 🔍 User-Friendly Interface  
+- Built using **HTML, CSS, and JavaScript**  
+- Simple input form for farmers/users  
+- Displays instant results  
+
+---
+
+### 📊 Data Processing  
+- Data preprocessing using:  
+  - Pandas  
+  - NumPy  
+- Ensures clean and optimized data for training  
+
+---
+
+## 🛠️ Technology Stack  
+
+| Layer        | Technology Used |
+|-------------|----------------|
+| Frontend     | HTML, CSS, JavaScript |
+| Backend      | Python |
+| ML Algorithm | Random Forest |
+| Libraries    | Pandas, NumPy, Scikit-learn |
+
+---
+
+## 📦 Prerequisites  
+
+Ensure you have the following installed:  
+
+- 🐍 Python (3.7 or above)  
+- 📦 pip (Python package manager)  
+
+### 📚 Required Libraries  
+```bash
 pip install pandas numpy scikit-learn flask
 ⚙️ Setup Instructions
 1️⃣ Clone or Download Project
